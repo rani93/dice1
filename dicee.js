@@ -15,13 +15,13 @@ var imagePick2= "images/dice"+randomNumber2+".png";
 var c=document.querySelectorAll("img")[1];
 c.setAttribute("src", imagePick2);
 if(a==d){
-    document.querySelector("h1").innerHTML="draw! & refresh me for more";
+    document.querySelector("h1").innerHTML="draw!";
 }
 else if(a>d){
-    document.querySelector("h1").innerHTML="🚩Player1 wins  & refresh me for more";
+    document.querySelector("h1").innerHTML="🚩Player1 wins ";
     
 }
 else{
-    document.querySelector("h1").innerHTML="player2 wins🚩  & refresh me for more";
+    document.querySelector("h1").innerHTML="player2 wins🚩 ";
     
 }
